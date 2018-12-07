@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="css/style.css" rel="stylesheet">
+    <meta charset="UTF-8">
+</head>
+<body>
+  <div id="start-block">
+  <p class="start-time"> Start time</p>
+      <input type="number" name="fname" onkeyup="validate()" id="game-times" >
+      <input type="button" value="Start" id="start-button" disabled  onclick="start()">
+  </div>
+<span id="clock"></span>
+
+<button id="button" onkeydown="return false" onclick="onClick()"></button>
+<audio src="js/audio.mp3" autoplay="autoplay"></audio>
+<script src="js/script.js"></script>
+</body>
+</html>

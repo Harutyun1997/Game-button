@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+    position: relative;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    transition-duration: 1s;
+}
+
+#button {
+
+    display: none;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #208bd3;
+    border: 1px black solid;
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+#clock {
+    font-size: 44px;
+    font-family: sans-serif;
+    margin-top: 171px;
+    color: #2323e1;
+    position: absolute;
+}
+#start-block {
+    font-size: 16px;
+    font-family: sans-serif;
+    margin-top: 200px;
+    color: #2323e1;
+}
+.start-time {
+    margin-left: -23px;
+    font-size: 32px;
+    margin-bottom: 12px;
+    color: #bcd3ff;
+}
